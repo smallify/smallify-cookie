@@ -1,6 +1,6 @@
 {
   "name": "smallify-cookie",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "typings": "index.d.ts",
   "repository": "https://github.com/smallify/smallify-cookie.git",
@@ -28,14 +28,12 @@
     "pre-commit": "^1.2.2",
     "snazzy": "^9.0.0",
     "standard": "^16.0.3",
-    "typescript": "^4.1.3"
+    "typescript": "^4.1.3",
+    "smallify": "^1.0.3"
   },
-  "pre-commit": [
-    "lint"
-  ],
+  "pre-commit": ["lint"],
   "dependencies": {
     "cookie": "^0.4.1",
-    "cookie-signature": "^1.1.0",
-    "smallify": "^1.0.3"
+    "cookie-signature": "^1.1.0"
   }
 }
